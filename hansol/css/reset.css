@@ -1,0 +1,19 @@
+@charset "utf-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: top;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+table, tr, td, th{border-collapse: collapse;}
+ol, ul, li{list-style: none;}
+a, a:hover{text-decoration: none;color: #333;}
+
+/*html, body{min-width: 1200px;}*/
+

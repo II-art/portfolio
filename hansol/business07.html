@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>사업개요 - 제품문의</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="fontello/css/fontello-embedded.css">
+    <link rel="stylesheet" href="css/content-order.css">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR:100,300,400,500,700,900&display=swap&subset=korean" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/e4b0c5cfff.js" crossorigin="anonymous"></script>
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/hansol.js"></script>
+    <script src="js/content-order.js"></script>
+</head>
+
+<body>
+    <div id="wrap">
+        <div class="wrap">
+            <div class="header-wrap">
+                <!---------------------헤더시작------------------------------->
+                <div id="header">
+                    <div class="logo-wrap">
+                        <a href="hansol_main.html"></a>
+                    </div>
+                    <div class="main-wrap">
+                        <ul>
+                            <li><a href="#a">회사소개</a></li>
+                            <li><a href="business01.html">사업영역</a></li>
+                            <li><a href="hansol_management.html">회사경영</a></li>
+                            <li><a href="hansolboard.html">고객지원</a></li>
+                        </ul>
+                    </div>
+                    <div class="sub-wrap">
+                        <ul>
+                            <li><a href="hansol_main.html">HOME</a></li>
+                            <li><a href="">ENGLISH</a></li>
+                            <li><a href="">개인정보처리방침</a></li>
+                        </ul>
+                    </div>
+                    <div class="ham active">
+                        <span class="bar bar1"></span>
+                        <span class="bar bar2"></span>
+                        <span class="bar bar3"></span>
+                        <div class="minimenu">
+                            <div class="top">
+                                <ul>
+                                    <li><a href="./hansol_main.html">Home</a></li>
+                                    <li><a>English</a></li>
+                                    <li><a>개인정보처리방침</a></li>
+                                </ul>
+                            </div>
+                            <div class="mid">
+                                <div><a href="#a">회사소개&nbsp; ></a></div>
+                                <div><a href="business01.html">사업영역&nbsp; ></a></div>
+                                <div><a href="hansol_management.html">회사경영&nbsp; ></a></div>
+                                <div><a href="hansolboard.html">고객지원&nbsp; ></a></div>
+                            </div>
+                            <div class="bottom">
+                                (주)한솔제지
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!----------------------헤더끝-------------------------------->
+            </div>
+            <section id="section1">
+                <div class="content-wrap">
+                    <div class="content">
+                        <div class="content-root">
+                            <ul class="content-root-list">
+                                <li><a href="hansol_main.html"><i class="icon-home"></i>홈</a></li>
+                                <li><i class="icon-right-open-mini"></i></li>
+                                <li><a href="business01.html">사업영역</a></li>
+                                <li><i class="icon-right-open-mini"></i></li>
+                                <li><a href="#a">제품문의<i class="icon-down-circle"></i></a>
+                                    <ul>
+                                        <li><a href="business01.html">인쇄용지</a></li>
+                                        <li><a href="business02.html">패키징용지</a></li>
+                                        <li><a href="business03.html">특수지</a></li>
+                                        <li><a href="business04.html">감열지</a></li>
+                                        <li><a href="business05.html">R&amp;D</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="content-text">
+                            <h2>제품문의</h2>
+                            <p>
+                                종이상담, 구매문의, 기타로 구분하여 문의하실 수 있습니다. 고객님께서 문의하신 내용에 대한 답변은 등록하신 E-mail로 발송됩니다.
+                                <br>
+                                정확한 답변을 위해 <span>&#42;</span>필수항목을 반드시 입력하여 주십시오.
+                            </p>
+                            <div class="sub-text">
+                                <p><span>&#42;</span>필수입력 사항</p>
+                            </div>
+                        </div>
+                        <div id="content-main" class="content-main">
+                            <form id="inquiry">
+                                <div class="order">
+                                    <div class="category">
+                                        <label for="category"><span>&#42;</span>문의분야</label>
+                                        <select name="category" id="category">
+                                            <option value="product">제품문의</option>
+                                            <option value="paper">종이상담</option>
+                                            <option value="order">구매문의</option>
+                                            <option value="rest">기타</option>
+                                        </select>
+                                    </div>
+                                    <div class="bar"></div>
+                                    <div class="info">
+                                        <label for="info"><span>&#42;</span>제품정보</label>
+                                        <select name="" id="">
+                                            <option value="">제품선택</option>
+                                            <option value="">인쇄용지</option>
+                                            <option value="">패키징용지</option>
+                                            <option value="">특수지</option>
+                                            <option value="">감열지</option>
+                                        </select>
+                                    </div>
+                                    <div class="bar"></div>
+                                    <div class="name">
+                                        <label for="name"><span>&#42;</span>이름</label>
+                                        <input type="text">
+                                    </div>
+                                    <div class="bar"></div>
+                                    <div class="contact">
+                                        <label for="contact"><span>&#42;</span>연락처</label>
+                                        <input type="text">
+                                        <bold>&nbsp;&#45;&nbsp;&nbsp;</bold><input type="text">
+                                        <bold>&nbsp;&#45;&nbsp;&nbsp;</bold><input type="text">
+                                    </div>
+                                    <div class="bar"></div>
+                                    <div class="email">
+                                        <label for="email"><span>&#42;</span>이메일</label>
+                                        <div class="email-wrap">
+                                            <input type="text" id="str_email01">
+                                            <bold>&nbsp;&#64;&nbsp;&nbsp;</bold><input type="text" id="str_email02" disabled="true">&nbsp;
+                                            <select name="email" id="email">
+                                                <option value="1">선택하세요</option>
+                                                <option value="dreamwiz.com">dreamwiz.com</option>
+                                                <option value="empal.com">empal.com</option>
+                                                <option value="hanmail.net">hanmail.net</option>
+                                                <option value="hanmir.com">hanmir.com</option>
+                                                <option value="hotmail.com">hotmail.com</option>
+                                                <option value="korea.com">korea.com</option>
+                                                <option value="nate.com">nate.com</option>
+                                                <option value="naver.com">naver.com</option>
+                                                <option value="netian.com">netian.com</option>
+                                                <option value="paran.com">paran.com</option>
+                                                <option value="sayclub.com">sayclub.com</option>
+                                                <option value="yahoo.co.kr">yahoo.co.kr</option>
+                                                <option value="2">직접입력</option>
+                                            </select>
+                                            <p>
+                                                &#42;입력하신 이메일로 답변을 보내드립니다. 정확하게 입력해주세요.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="bar"></div>
+                                    <div class="con-title">
+                                        <label for="title"><span>&#42;</span>제목</label>
+                                        <input type="text" id="text-area">
+                                    </div>
+                                    <div class="con-main">
+                                        <label for="main">내용</label>
+                                        <textarea name="message" id="" style="resize: none;" placeholder="내용을 입력해 주세요"></textarea>
+                                    </div>
+                                    <div class="bar"></div>
+                                    <div class="filebox">
+                                        <label for="file">첨부파일</label>
+                                        <label for="ex_file">파일선택</label>
+                                        <input type="file" id="ex_file" class="upload-hidden">
+                                        <input class="upload-name" id="upload-name" value="선택된 파일이 없습니다" disabled="diasbled">
+                                    </div>
+                                </div>
+                                <div class="personal">
+                                    <h3>개인정보 수집 및 이용에 관한 동의</h3>
+                                    <div class="personal-text">
+                                        <p>
+                                            1. 개인정보의 수집 및 이용목적<br>
+                                            1&#41; 당사는 다음과 같은 &#39;온라인 상담&#39; 업무 수행을 위하여 개인정보를 수집 및 이용합니다.<br>
+                                            - 종이상담/구매상담/기타문의<br>
+                                            2&#41; 수집된 개인정보는 정해진 목적 이외의 용도로는 이용되지 않으며 수집 목적이 변경될 경우 사전에 알리고 동의를 받을 예정입니다.<br>
+                                            <br>
+                                            2. 수집하는 개인정보의 항목<br>
+                                            1&#41; 개인정보 항목&#58; 이름, 전화번호, 이메일<br>
+                                            2&#41; 이벤트 내용 작성 후 &#39;등록&#39;을 누르면, 작성 내용 및 개인정보가 당사의 담당자 메일로 전송됩니다.<br>
+                                            <br>
+                                            3. 개인정보의 보유 및 이용기간<br>
+                                            원칙적으로, 개인정보 수집 및 이용 목적이 달성된 후에는 해당 정보를 지체없이 파기합니다.<br>
+                                            <br>
+                                            4. 동의를 거부할 권리가 있다는 사실 및 동의 거부에 따른 불이익 내용<br>
+                                            개인정보 수집에 동의를 거부할 권리가 있으나 최소한의 개인정보 수집등의 거부 시에는 &#39;온라인상담&#39;서비스가 제한됩니다.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="agree">
+                                    <div class="all_agree">
+                                        <input type="checkbox" id="agree" class="agree-box">
+                                        <label for="agree">본인은 상기 기재된 개인 정보 수집 이용 내용에 동의합니다.</label>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="order-button">
+                            <span class="del">취소</span>
+                            <span class="registration">등록</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="section2">
+                <div class="section2"></div>
+            </section>
+
+            <!-------------------사이트맵시작------------------------------>
+            <div id="sitemap">
+                <div class="sitemap-wrap">
+                    <ul>
+                        <li><a class="one" href="#a">회사소개</a></li>
+                        <li><a href="#a">회사개요 및 이념</a></li>
+                        <li><a href="#a">CEO 인사말</a></li>
+                        <li><a href="#a">연혁</a></li>
+                        <li><a href="#a">사업장 위치</a></li>
+                        <li><a href="#a"></a></li>
+                    </ul>
+                    <ul>
+                        <li><a class="one" href="business01.html">사업영역</a></li>
+                        <li><a href="business01.html">인쇄용지</a></li>
+                        <li><a href="business02.html">패키징용지</a></li>
+                        <li><a href="business03.html">특수지</a></li>
+                        <li><a href="business04.html">검열지</a></li>
+                        <li><a href="business05.html">R&#38;D</a></li>
+                    </ul>
+                    <ul>
+                        <li><a class="one" href="hansol_management.html">회사경영</a></li>
+                        <li><a href="hansol_management.html">환경경영</a></li>
+                        <li><a href=""></a></li>
+                        <li><a href=""></a></li>
+                        <li><a href=""></a></li>
+                        <li><a href=""></a></li>
+                    </ul>
+                    <ul>
+                        <li><a class="one" href="hansolboard.html">고객지원</a></li>
+                        <li><a href="hansolboard.html">공지사항</a></li>
+                        <li><a href="hansolboard.html">뉴스</a></li>
+                        <li><a href="hansolboard.html">나눔 활동소식</a></li>
+                        <li><a href="hansolboard.html">자료실</a></li>
+                        <li><a href=""></a></li>
+                    </ul>
+                </div>
+            </div>
+            <!--------------------사이트맵끝------------------------------>
+            <!---------------------푸터시작------------------------------->
+            <div id="footer">
+                <div class="footer-wrap">
+                    <div class="upper">
+                        <div class="logo"></div>
+                        <div class="title">(주)한솔제지</div>
+                        <div class="link-wrap">
+                            <div class="buy"><a href="">열린 구매시스템</a></div>
+                            <div class="blog"><a href=""><i class="fab fa-blogger-b fa-2x"></i></a></div>
+                            <div class="facebook"><a href=""><i class="fab fa-facebook-square fa-2x"></i></a></div>
+                            <div class="famliy">
+                                <select name="Family site" id="0">
+                                    <option>Family site</option>
+                                    <option>한솔그룹</option>
+                                    <option>한솔PNS</option>
+                                    <option>한솔홈데코</option>
+                                    <option>한솔테크닉스</option>
+                                    <option>한솔케미칼</option>
+                                    <option>한솔EME</option>
+                                    <option>한솔로지스틱스</option>
+                                    <option>한솔인티큐브</option>
+                                    <option>한솔 Museum SAN</option>
+                                    <option>한솔페이퍼텍</option>
+                                </select>
+                            </div>
+                            <div class="go">
+                                <a href="">G O</a>
+                            </div>
+                            <div class="up"><a href="#mid"><i class="fas fa-chevron-circle-up fa-3x"></i></a></div>
+                        </div>
+                    </div>
+                    <div class="under">
+                        <div class="location">
+                            <div class="place">본사</div>
+                            <div class="exp">전화 : 02-3287-7174 / 팩스 : 02-6031-0908<br>주소 : 서울 중구 을지로 100 (을지로2가) 파인애비뉴 B동 23~24층</div>
+                        </div>
+                        <div class="location">
+                            <div class="place">장항공장</div>
+                            <div class="exp">
+                                전화 : 041-955-1111 / 팩스 : 041-956-6488<br>주소 : 충청남도 서천군 장항읍 장산로 149 한솔제지 장항공장
+                            </div>
+                        </div>
+                        <div class="location">
+                            <div class="place">대전공장</div>
+                            <div class="exp">전화 : 042-939-1114 / 팩스 : 042-939-1112<br>주소 : 대전광역시 대덕구 신일서로 68번길 50 한솔제지 대전공장</div>
+                        </div>
+                        <div class="location">
+                            <div class="place">천안공장</div>
+                            <div class="exp">전화 : 041-559-6114 / 팩스 : 041-559-6177<br>주소 : 충청남도 천안시 동남구 광덕면 세종로 4186 한솔제지 천안공장</div>
+                        </div>
+                        <div class="location">
+                            <div class="place">신탄진공장</div>
+                            <div class="exp">전화 : 042-939-2000 <br>주소 : 대전광역시 대덕구 신일서로 126번길 60 (신일동)</div>
+                        </div>
+                        <div class="location">
+                            <div class="place">R&#38;D연구소</div>
+                            <div class="exp">전화 : 042-939-1605 / 팩스 : 042-939-1614<br>주소 : 대전광역시 대덕구 신일서로 68번길 50 한솔제지 중앙연구소</div>
+                            <div class="copyright">Copyright 2019 Hansol., All rights Reserved.</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="up"></div>
+            </div>
+            <!---------------------푸터끝------------------------------->
+        </div>
+    </div>
+</body></html>
